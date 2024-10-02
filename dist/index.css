@@ -8,21 +8,21 @@
 nav {
     background-color: #aaa;
     padding: 10px;
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space out logo and nav items */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
 }
 
 nav .logo img {
-    width: 50px; /* Set a fixed width for the logo */
-    height: auto; /* Maintain aspect ratio */
+    width: 50px; 
+    height: auto; 
 }
 
 .nav-menu {
     list-style: none;
     display: flex;
-    margin-left: auto; /* Push the menu to the right */
-    /* width:; */
+    margin-left: auto;
+    
 }
 
 .nav-menu li {
@@ -31,8 +31,8 @@ nav .logo img {
 
 .nav-menu a {
     text-decoration: none;
-    color: #f0f0f0; /* Light color for better visibility */
-    padding: 10px 15px; /* Adjust padding */
+    color: #f0f0f0; 
+    padding: 10px 15px; 
     transition: background-color 0.3s ease;
     color: black;
 }
@@ -51,12 +51,11 @@ nav .logo img {
     padding: 10px;
     border: 2px solid #0a0707;
     border-radius: 5px;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-   /* z-index: 1000; Ensure it appears above other content */
+
 }
 
 .dropdown li {
-    margin-bottom: 5px; /* Space between dropdown items */
+    margin-bottom: 5px; 
 }
 
 .dropdown a {
@@ -65,7 +64,7 @@ nav .logo img {
 }
 
 .nav-menu li:hover .dropdown {
-    display: block; /* Show dropdown on hover */
+    display: block; 
 }
 .banner {
     position: relative; 
@@ -81,13 +80,13 @@ nav .logo img {
 }
 
 .banner_content {
-    position: absolute; /* Position content absolutely within the banner */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust to truly center */
-    color: white; /* Text color */
-    text-align: center; /* Center text alignment */
-    z-index: 10; /* Ensure it's above the video */
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center; 
+    z-index: 10; 
 }
 
 .banner_content h1 {
