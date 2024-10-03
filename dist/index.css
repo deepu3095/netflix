@@ -22,6 +22,7 @@ nav .logo img {
     list-style: none;
     display: flex;
     margin-left: auto;
+    /* z-index: 5; */
     
 }
 
@@ -51,6 +52,7 @@ nav .logo img {
     padding: 10px;
     border: 2px solid #0a0707;
     border-radius: 5px;
+    z-index: 40;
 
 }
 
@@ -199,7 +201,7 @@ nav .logo img {
 .banner_contain {
     flex: 1; 
     text-align: left;
-    margin: 5rem;
+    margin: 4rem;
     color: #f1f1f1;
 }
 
